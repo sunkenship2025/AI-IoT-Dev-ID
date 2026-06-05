@@ -111,11 +111,9 @@ INFO:     Uvicorn running on http://0.0.0.0:8000
 
 Once the server is running:
 
-- **Interactive API docs**: http://localhost:8000/docs
-- **Alternative docs**: http://localhost:8000/redoc
-- **Health check**: http://localhost:8000/health
-
-**Test in browser**: Open http://localhost:8000/docs and click "Try it out" on any endpoint.
+- **Interactive API docs**: /docs
+- **Alternative docs**: /redoc
+- **Health check**: /health
 
 **Test with curl**:
 ```bash
@@ -196,8 +194,8 @@ curl -X POST http://localhost:8000/predict \
 ```
 
 **Interactive Docs**
-- Swagger: http://localhost:8000/docs
-- ReDoc: http://localhost:8000/redoc
+- Swagger: /docs
+- ReDoc: /redoc
 
 ## Training Other Models
 
