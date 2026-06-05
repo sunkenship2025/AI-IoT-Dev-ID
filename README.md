@@ -8,7 +8,7 @@ Machine learning system for identifying IoT devices from network traffic pattern
 - **Production Model**: HGB (Histogram Gradient Boosting)
 - **Location**: `outputs/hgb_test/` → `api_models/hgb/`
 - **Accuracy**: 88.84% on 19,932 validation samples
-- **API**: Ready at http://localhost:8000
+
 
 📊 **[Full Status Report](STATUS.md)**
 
